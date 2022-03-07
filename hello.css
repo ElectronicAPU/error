@@ -1,0 +1,33 @@
+html {
+    font-size: 62.5%;
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    height: 100%;
+    /* background: rgb(255, 255, 255); */
+  }
+
+  ul{
+      list-style: none;
+      padding: 1rem;
+  }
+
+.navcontainer{
+    /* background: rgb(177, 84, 84); */
+    font-size: 4rem;
+    /* background-color: transparent; */
+    /* box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px; */
+
+}
+
+ @media only screen and (min-width: 600px) {
+     .navcontainer{
+         background: rgb(0, 224, 19);
+     }
+ }
